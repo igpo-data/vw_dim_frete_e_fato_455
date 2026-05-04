@@ -6,16 +6,16 @@ Contém dados cadastrais e operacionais.
   ## -> LEFT JOIN ft_455 f
   ON f.sk_dim_frete = d.sk_dim_frete 
   
-    ### 📌 Função:
-    Trazer valores financeiros do frete
-    ### 📦 Principais dados:
-    valor da mercadoria
-    valor do frete
-    ICMS
-    pedágio
-    TDE
-    volumes
-    comissões
+  ### 📌 Função:
+  Trazer valores financeiros do frete
+  ### 📦 Principais dados:
+  valor da mercadoria
+  valor do frete
+  ICMS
+  pedágio
+  TDE
+  volumes
+  comissões
 
 #### OBS1: a fato ft_455 há tanto PK quanto FK, sendo 
   PK (sk_ft_455): Identificar cada linha da fato de forma única sem duplicidade 
