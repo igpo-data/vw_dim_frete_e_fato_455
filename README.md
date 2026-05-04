@@ -8,7 +8,7 @@ Contém dados cadastrais e operacionais.
   
   ### 📌 Função:
   Trazer valores financeiros do frete
-  ### 📦 Principais dados:
+  ### 📦 Principais:
   valor da mercadoria
   valor do frete
   ICMS
@@ -18,14 +18,14 @@ Contém dados cadastrais e operacionais.
   comissões
 
 #### OBS1: a fato ft_455 há tanto PK quanto FK, sendo 
-  PK (sk_ft_455): Identificar cada linha da fato de forma única sem duplicidade 
-  FK (sk_dim_frete): ligar a fato com a dimensão dim_frete
-  -> Não usar sk_dim_frete como PK, pois o mesmo frete pode ter varias linhas 
+  PK (sk_ft_455): Identificar cada linha da fato de forma única sem duplicidade  
+  FK (sk_dim_frete): ligar a fato com a dimensão dim_frete  
+  -> Não usar sk_dim_frete como PK, pois o mesmo frete pode ter varias linhas  
 
 #### OBS2: a fato ft_455 há decomposição no valor do frete: 
- vlr_frete: valor total do frete.
- Frete Valor: parte do frete baseada no valor da mercadoria.
- Frete Peso: parte baseada no peso.
+vlr_frete: valor total do frete.  
+Frete Valor: parte do frete baseada no valor da mercadoria.  
+Frete Peso: parte baseada no peso.  
 
  
 
