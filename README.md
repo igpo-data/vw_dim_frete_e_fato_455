@@ -1,4 +1,4 @@
-# A view parte da tabela principal:
+# :
   ## -> dim_frete d
 Define os fretes (Ctrcs) 
 Contém dados cadastrais e operacionais. 
