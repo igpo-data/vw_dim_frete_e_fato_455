@@ -27,7 +27,7 @@ vlr_frete: valor total do frete.
 Frete Valor: parte do frete baseada no valor da mercadoria.  
 Frete Peso: parte baseada no peso.  
 
-#### OBS3: valor de frete filtrado sempre com recarga de D-90 dias pois substituição de um CTRC pode ser alterada para ocorrência 83 e 87.
+#### OBS3: valor de frete filtrado sempre com recarga de D-90 dias pois substituição de um CTRC pode ser alterada para a ultima ocorrência 83 e 87.
 
  
 
